@@ -1,0 +1,51 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<main id="main">
+  <h1 id="title">A. P. J. Abdul Kalam</h1>
+  <div id="img-div">
+    <img src="https://s3.india.com/wp-content/uploads/2020/07/facts-about-Kalam.jpg" alt="Abdul Kalam" id="image">
+    <p id="img-caption">11th President of India</p>
+  </div>
+    <h2 id="tribute-info">Kalam's Writings</h2>
+   <ul id="list" type="circle">
+     <li>Developments in Fluid Mechanics and Space Technology by A P J Abdul Kalam and Roddam Narasimha; Indian Academy of Sciences, 1988</li>
+     <li>India 2020: A Vision for the New Millennium by A P J Abdul Kalam, Y. S. Rajan; New York, 1998</li>
+     <li>Wings of Fire: An Autobiography by A P J Abdul Kalam, Arun Tiwari; Universities Press, 1999.</li>
+     <li>Ignited Minds: Unleashing the Power Within India by A P J Abdul Kalam; Viking, 2002</li>
+     <li>The Luminous Sparks by A P J Abdul Kalam, by Punya Publishing Pvt Ltd., 2004.</li>
+     </ul>
+  <a id="tribute-link" href="https://en.wikipedia.org/wiki/A._P._J._Abdul_Kalam" target="_blank">For more books</a>
+  </div>
+</main>
+#main{
+  background-color : #D3D3D3;
+}
+#title{
+  text-align: center;
+  padding-top:10px;
+}
+#img-div{
+  background-color: white;
+}
+#image{
+  max-width:100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#img-caption{
+  text-align: center;
+  font-family: arial;
+ }
+#tribute-info{
+  text-align: center;
+}
+#list{
+  line-height: 25px;
+  font-size:16px;
+  
+}
+#tribute-link{
+  text-indent: 60px;
+  font-style: italic;
+}
