@@ -1,4 +1,39 @@
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<head>
+<style>
+#navbar{
+  position: fixed;
+  top:0;
+  left:0;
+  background-color:gray;
+  line-height: 25px;
+  }
+#main-doc{
+  margin-left: 300px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 25px;
+  background-color: #FFDAB9;
+  padding:10px;
+}
+@media(max-width:350px){
+  body{
+    font-size:2em;
+  }
+}
+#nav_header{
+  text-decoration:underline;
+  text-transform: uppercase;
+  text-size:10px;
+}
+#footer{
+  positon:fixed;
+  bottom:0;
+  right:0;
+}
+
+</style>
+</head>
 <main id="main-doc">
   <section class="main-section" id="Introduction">
     <header ><h1>Introduction</h1></header>
@@ -101,35 +136,4 @@
     <footer id="footer">
       Designed and Coded by: Bhavani Dasari
     </footer>
-    #navbar{
-  position: fixed;
-  top:0;
-  left:0;
-  background-color:gray;
-  line-height: 25px;
-}
-CSS
-=====
-#main-doc{
-  margin-left: 300px;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 25px;
-  background-color: #FFDAB9;
-  padding:10px;
-}
-@media(max-width:350px){
-  body{
-    font-size:2em;
-  }
-}
-#nav_header{
-  text-decoration:underline;
-  text-transform: uppercase;
-  text-size:10px;
-}
-#footer{
-  positon:fixed;
-  bottom:0;
-  right:0;
-}
+    
